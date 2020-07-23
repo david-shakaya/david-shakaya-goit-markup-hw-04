@@ -188,6 +188,7 @@ h3 {
 }
 
 /*Преймущества*/
+
 .benefits .list-benefits {
   display: flex;
   padding-top: 94px;
@@ -205,11 +206,11 @@ h3 {
 .list-item-benefits-svg {
   width: 70px;
   height: 70px;
-
   padding-top: 25px;
   padding-left: 100px;
   padding-bottom: 25px;
   padding-right: 100px;
+
   background-color: #f5f4fa;
   border-radius: 4px;
 
