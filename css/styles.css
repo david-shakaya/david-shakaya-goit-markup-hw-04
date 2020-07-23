@@ -202,7 +202,10 @@ h3 {
   margin-right: 30px;
 }
 
-.list-item-img {
+.list-item-benefits-svg {
+  width: 70px;
+  height: 70px;
+
   padding-top: 25px;
   padding-left: 100px;
   padding-bottom: 25px;
@@ -309,6 +312,38 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
+}
+
+.social-link-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link-list-item:hover {
+  background-color: var(--accent-color);
+}
+
+.social-link-list-item-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.link:hover .social-link-list-item-svg {
+  fill: #ffffff;
+}
+
+.social-link-list-item .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
 }
 
 .subtitle-team {
