@@ -103,6 +103,26 @@ h3 {
   align-items: center;
 }
 
+.header-adress-mail-svg {
+  width: 16px;
+  height: 11.2px;
+  fill: var(--title-gray-words-color);
+}
+
+.header-adress-link:hover .header-adress-mail-svg {
+  fill: var(--accent-color);
+}
+
+.header-adress-tel-svg {
+  width: 10px;
+  height: 15px;
+  fill: var(--title-gray-words-color);
+}
+
+.header-adress-link:hover .header-adress-tel-svg {
+  fill: var(--accent-color);
+}
+
 .header-adress-list:not(:last-child) {
   margin-right: 30px;
 }
