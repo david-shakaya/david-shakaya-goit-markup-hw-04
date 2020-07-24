@@ -513,6 +513,37 @@ h3 {
   color: var(--title-light-words-color);
 }
 
+.footer-social-link-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-link-list-item {
+  width: 44px;
+  height: 44px;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-link-svg {
+  fill: var(--title-light-words-color);
+  width: 20px;
+  height: 20px;
+}
+
+.footer-social-link-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.footer-social-link-link:hover {
+  background-color: var(--accent-color);
+}
+
 /*Стили для страницы портфоли "Portfolio.html"*/
 /*Кнопки*/
 .btn-wrapper {
