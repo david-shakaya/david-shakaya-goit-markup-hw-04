@@ -107,6 +107,7 @@ h3 {
   width: 16px;
   height: 11.2px;
   fill: var(--title-gray-words-color);
+  margin-right: 10px;
 }
 
 .header-adress-link:hover .header-adress-mail-svg {
@@ -117,6 +118,7 @@ h3 {
   width: 10px;
   height: 15px;
   fill: var(--title-gray-words-color);
+  margin-right: 10px;
 }
 
 .header-adress-link:hover .header-adress-tel-svg {
@@ -128,6 +130,9 @@ h3 {
 }
 
 .header-adress-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -516,6 +521,7 @@ h3 {
 .footer-social-link-list {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .footer-social-link-list-item {
@@ -551,8 +557,6 @@ h3 {
 }
 
 .btn-list {
-  width: 611px;
-  height: 54px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -566,6 +570,7 @@ h3 {
 
 .button {
   height: 38px; /* Временное свойство*/
+  border: none;
 
   font-weight: 500;
   font-size: 16px;
@@ -573,12 +578,18 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-dark-words-color);
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .button:hover,
 .button:focus {
   color: var(--title-light-words-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /*Портфолио ГАЛЕРЕЯ*/
@@ -611,6 +622,11 @@ h3 {
 
 .link-portfolio {
   text-decoration: none;
+}
+
+.list-item-portfolio {
+  border: #eeeeee solid 1px;
+  box-sizing: border-box;
 }
 
 .title-portfolio {
