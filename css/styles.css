@@ -399,9 +399,7 @@ h3 {
   border-radius: 4px;
 }
 
-.client-list-svg {
-  width: 44px;
-  height: 49px;
+.client-link-svg {
   fill: #afb1b8;
 }
 
@@ -414,15 +412,44 @@ h3 {
   fill: var(--accent-color);
 }
 
-.link:hover .client-list-svg {
+.link:hover .client-link-svg {
   fill: var(--accent-color);
 }
 
-.link:hover {
+.client-list-item .link:hover {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 
+.svg-1 {
+  width: 44px;
+  height: 49px;
+}
+
+.svg-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.svg-3 {
+  width: 41px;
+  height: 43px;
+}
+
+.svg-4 {
+  width: 80px;
+  height: 42px;
+}
+
+.svg-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.svg-6 {
+  width: 88.5px;
+  height: 45px;
+}
 /* Подвал сайта*/
 
 .footer {
