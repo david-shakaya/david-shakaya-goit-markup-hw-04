@@ -569,7 +569,7 @@ h3 {
 }
 
 .button {
-  height: 38px; /* Временное свойство*/
+  height: 38px;
   border: none;
 
   font-weight: 500;
