@@ -565,6 +565,14 @@ h3 {
 }
 
 /*Стили для страницы портфоли "Portfolio.html"*/
+
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /*Кнопки*/
 .btn-wrapper {
   padding-top: 93px;
