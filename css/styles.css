@@ -708,3 +708,31 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--title-light-words-color);
 }
+
+.wrapper-opacity {
+  position: relative;
+}
+
+.desc-portfolio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background: rgba(33, 150, 243, 0.9);
+
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  opacity: 0;
+}
+
+.wrapper-opacity > img {
+  display: block;
+}
+
+.link-portfolio:hover .desc-portfolio {
+  opacity: 1;
+}
